@@ -10,7 +10,8 @@ body {
 }
 h1 {
     @font-face {
-        font-family: face;
+        font-family: myFirstFont;
         src: url(freestyle-font.TTF);
-    }
+        font-weight: bold;
+      }
 }
