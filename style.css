@@ -1,4 +1,16 @@
 
 body {
-    background-color: #F0EED3
+    background-color: #D3ACCD;
+    color: #236326;
+    text-align: center;
+    text-decoration-style: solid;
+    text-decoration-thickness: 100%;
+    text-size-adjust: 150;
+    text-shadow: 2px 2px white;
+}
+h1 {
+    @font-face {
+        font-family: face;
+        src: url(freestyle-font.TTF);
+    }
 }
