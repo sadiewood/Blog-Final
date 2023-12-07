@@ -10,9 +10,7 @@ body {
 }
 h1 {
     @font-face {
-        font-family: myFirstFont;
-        src: url(freestyle-font.TTF);
-        font-weight: bold;
+        font-family: fantasy; freestyle-font.TTF
       }
 }
 h2 {
