@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: 'freestyle-font';
+    src: url('fonts/freestyle-regular.woff2') format('woff2');
+  }
 body {
     background-color: #D3ACCD;
     color: #236326;
@@ -9,9 +12,8 @@ body {
     text-shadow: 2px 2px white;
 }
 h1 {
-    @font-face {
-        font-family: fantasy; freestyle-font.TTF
-      }
+  font-family: 'freestyle-font', fantasy;
+  letter-spacing: 2px;
 }
 h2 {
     color:black
