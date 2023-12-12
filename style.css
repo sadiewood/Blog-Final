@@ -15,3 +15,20 @@ h1 {
 h2 {
     color:black
 }
+.image-set{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  "image text"
+}
+.text{
+  grid-area:"text"
+}
+.image{
+  grid-area:"image"
+}
+img {
+  width: 80%;
+  height: auto;
+}
