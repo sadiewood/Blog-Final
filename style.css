@@ -17,13 +17,18 @@ h2 {
 }
 .image-set{
   display:grid;
+  background-image: url(sketchbackground.png);
+  background-position: center;
+  background-size: 300px;
+  background-repeat: repeat-y;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: 
   "image text"
 }
 .text{
-  grid-area:"text"
+  grid-area:"text";
+  text-align: justify;
 }
 .image{
   grid-area:"image"
